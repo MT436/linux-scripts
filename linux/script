@@ -6,5 +6,5 @@ sudo yum update -y
 sudo yum install wget unzip zip tree tar -y
 sudo yum install git maven java-11 -y
 sudo yum upgrade -y
-echo "git --version"
-echo "mvn --version"
+git --version
+mvn --version
