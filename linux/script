@@ -1,0 +1,10 @@
+#! /bin/bash
+
+echo "Setup of the system requirement using shell script as default"
+
+sudo yum update -y
+sudo yum install wget unzip zip tree tar -y
+sudo yum install git maven java-11 -y
+sudo yum upgrade -y
+echo "git --version"
+echo "mvn --version"
